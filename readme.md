@@ -8,6 +8,10 @@
     * also install `pip install scrapy-user-agents`
 - I created a file get_urls.py and using the provided csv file i accumulated all the 1000 urls.
 
+### Running
+  - move into spider directory and `scrapy crawl scraper`
+  - or to save data into a json file `scrapy crawl scraper -o file.json`
+
 ### File Structure
 ![file structure](images/1.png)
 
